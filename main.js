@@ -87,7 +87,7 @@ const addToCartForms = document.querySelectorAll('.add')
 // Ítra í gegnum þau sem fylki (`querySelectorAll` skilar NodeList)
 for (const form of Array.from(addToCartForms)) {
   // Bæta submit event listener við hvert
-  form.addEventListener('submit', submitHandler);
+  form.addEventListener('submit', submitHandler); 
 }
 
 // TODO bæta við event handler á form sem submittar pöntun
