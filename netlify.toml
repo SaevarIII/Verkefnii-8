@@ -1,0 +1,3 @@
+[build]
+  command = "concurrently npm:copy:*" 
+  publish = "build"
