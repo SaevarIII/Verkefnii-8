@@ -1,5 +1,2 @@
 node_modules
 build
-.git/
-.gitignore
-package-lock.json
